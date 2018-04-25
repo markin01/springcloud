@@ -1,0 +1,12 @@
+server:
+  port: 9991
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+
+spring:
+  application:
+    name: springcloud-ribbon-service
+

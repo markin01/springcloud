@@ -1,0 +1,20 @@
+server:
+  port: 8887
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+
+spring:
+  application:
+    name: springcloud-turbine-dashboard
+
+#http://localhost:8887/hystrix.stream
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: springcloud-provider-service,springcloud-feign-service,springcloud-ribbon-service,springcloud-zuul
+  clusterNameExpression: "'default'"
+   
+

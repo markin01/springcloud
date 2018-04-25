@@ -1,0 +1,9 @@
+server:
+  port: 7777 # 服务端口
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/ # 服务注册中心地址
+spring:
+  application:
+    name: springcloud-provider-service # 服务名称

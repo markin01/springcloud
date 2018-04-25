@@ -1,0 +1,15 @@
+server:
+  port: 8040
+# http://localhost:8040/neo-config/dev
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/markin01/springcloud-config.git    # ����git�ֿ�ĵ�ַ
+          search-paths: config-repo                             # git�ֿ��ַ�µ���Ե�ַ���������ö������,�ָ
+          label: master
+          username: 314513963@qq.com                                             # git�ֿ���˺�
+          password: mn19870719                                            # git�ֿ������

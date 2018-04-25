@@ -1,0 +1,19 @@
+server:
+  port: 8889
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+
+spring:
+  application:
+    name: springcloud-zuul
+    
+zuul:
+  routes:
+    springcloud-feign-service: /feign/**
+    springcloud-ribbon-service: /ribbon/**
+    springcloud-provider-service: /provider/**
+   
+

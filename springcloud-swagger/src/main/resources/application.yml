@@ -1,0 +1,13 @@
+server:
+ port: 8020
+ 
+# http://localhost:8020/swagger-ui.html
+
+spring:
+  application:
+    name: springcloud-swagger
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
