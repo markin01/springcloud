@@ -1,2 +1,4 @@
-D:\workspaceTest\workspace 64\springcloud-feign-hystrix\src\main\java\com\bill99\HystrixApp.java
-D:\workspaceTest\workspace 64\springcloud-feign-hystrix\src\main\java\com\bill99\service\HelloFeignClient.java
+D:\springcloud-bill99\springcloud\springcloud-feign-hystrix\src\main\java\com\bill99\fallback\HelloFeignClientFallback.java
+D:\springcloud-bill99\springcloud\springcloud-feign-hystrix\src\main\java\com\bill99\HystrixApp.java
+D:\springcloud-bill99\springcloud\springcloud-feign-hystrix\src\main\java\com\bill99\controller\HelloController.java
+D:\springcloud-bill99\springcloud\springcloud-feign-hystrix\src\main\java\com\bill99\service\HelloFeignClient.java
